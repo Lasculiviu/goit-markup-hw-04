@@ -115,10 +115,10 @@ margin-left: 120px;
     display: flex; 
     justify-content: center; 
     align-items: center;
-
+margin-right: 350px;
   }
 .row1{
-
+margin-top: 30px;
     display: flex;
         justify-content: center;
         align-items: center;  
@@ -126,13 +126,14 @@ margin-left: 120px;
         width: 1128px;  
 }
 .row2{
-    
+    margin-top: 30px;
      display: flex;
     justify-content: center;
     align-items: center;height: 420px;
         width: 1128px;
 }
 .row3{
+    margin-top: 30px;
     display: flex;
         justify-content: center;
         align-items: center;height: 420px;
@@ -214,3 +215,4 @@ margin-left: -200px;
     color: #F4F4FD;
    
 }
+
