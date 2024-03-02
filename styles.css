@@ -2,9 +2,13 @@
 
         content: "WEB";
         color:blue;
+        margin-left: 140px;   
      
     }
-    
+    .tel-mail{
+     
+   
+    }
   
 
     .layout{
@@ -45,12 +49,12 @@
     justify-content: center;
     align-items: center;
 background-image: url(images/people-office\ 1.png);
+
     
         width: 1440px;
         height: 600px;
-        opacity: 70%;
+      
             flex-direction: column;
-           
             align-items: center;
             text-align: center;
            
@@ -106,15 +110,10 @@ margin-left: 120px;
     
     }
 
-.textfooter-endpage{
-flex-direction: column;
-width: 264px;
-height: 112px;
-top: 2380px;
-left: 156px;
-color: #F4F4FD;
 
-}
+
+
+
   .filter{
     display: flex; 
     justify-content: center; 
@@ -156,5 +155,35 @@ color: #F4F4FD;
             border-radius: 15px;
           
         }
+.icon-list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+  .icon-list .icon svg {
+    width: 20px;
+    height: 20px;
+    
 
-  
+  }
+  .icon-list .icon{
+width: 44px;
+height: 44px;
+background-color: #4D5AE5;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+  }
+  .clients{
+    display: flex;
+   justify-content: center;
+height: 200px;
+width: 1128px;
+
+
+  }
+   
