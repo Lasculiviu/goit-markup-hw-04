@@ -182,8 +182,19 @@ align-items: center;
     display: flex;
    justify-content: center;
 height: 200px;
-width: 1128px;
+width: 1440px;
 
 
+ background-color: aquamarine;
+        
+       
   }
    
+  .client-logo {
+    width: 200px;
+    /* Ajustează lățimea imaginilor la 200 de pixeli sau orice valoare dorită */
+    height: auto;
+    /* Menține proporțiile originale ale imaginilor */
+    margin: 10px;
+    /* Spațiere între imagini (opțional) */
+}
