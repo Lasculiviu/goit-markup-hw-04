@@ -39,31 +39,29 @@
  
             
 .order{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 1440px;
+  height: 600px;
+  margin: auto 0;
+  position:relative ;
 background-image: url(images/people-office\ 1.png);
+background-image: linear-gradient(rgba(46,47,66,0.7),rgba(46,47,66,0.7)),  url(../images/people-office\ 1.png);
 
-    
-        width: 1440px;
-        height: 600px;
-      
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-           
+display: flex;
+justify-content: center;
+align-items: center;
+
+color: rgb(241, 245, 247);
     }
     .orderbutton {
-    padding: 10px 10px;
-        font-size: 1%;
-        background-color: #4D5AE5;
+    padding: 4px 120px;width: 120px;
+        height: 40px;
+        font-size: 16px;
+
      
-        color: #4D5AE5;
-    
-        border: #4D5AE5;
-        
-         
+    }
+    .order_text{
+       font-size: xxx-large;
+       
     }
 
 .footer{
@@ -105,6 +103,8 @@ margin-left: 120px;
 .footer-endpage{
     width: 1440px;
     height: 312px;
+    margin-top: 80px;
+
     }
 
 
@@ -116,6 +116,7 @@ margin-left: 120px;
     justify-content: center; 
     align-items: center;
 margin-right: 350px;
+
   }
 .row1{
 margin-top: 30px;
@@ -126,6 +127,7 @@ margin-top: 30px;
         width: 1128px;  
 }
 .row2{
+    
     margin-top: 30px;
      display: flex;
     justify-content: center;
@@ -138,6 +140,8 @@ margin-top: 30px;
         justify-content: center;
         align-items: center;height: 420px;
             width: 1128px;
+            list-style:none
+        
            
     }
 .social-button{
