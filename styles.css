@@ -217,6 +217,7 @@ align-items: center;
    justify-content: center;
 height: 200px;
 width: 1440px;
+
   }
    
   .client-logo {
@@ -250,4 +251,11 @@ margin-left: -200px;
     color: #F4F4FD;
    
 }
-
+.clients img {
+    width: 168px;
+    height: 88px;
+    border: 1px #8E8F99;
+    
+    border-radius: 4px;
+    
+}
